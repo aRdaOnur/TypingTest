@@ -1,2 +1,2 @@
 # TypingTest
-With curses typing test
+With curses, random and time  libs
