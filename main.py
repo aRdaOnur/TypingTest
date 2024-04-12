@@ -105,7 +105,7 @@ def main(stdscr):
         
 
         key = 10 is ENTER
-        key = 263 is BACKSPACE
+        key = 263 is BACKSPACE in windows backspace key is 8 because of that i changed
         key = 32 is SPACE 
 
         '''
@@ -114,7 +114,7 @@ def main(stdscr):
             key_index+=1
         
         else:
-            if key == 263 and key_index !=0:# backspace
+            if key == 8 and key_index !=0:# backspace
                 key_index-=1
                 stdscr.addstr(0,key_index,str(text[text_index][key_index])) 
 
